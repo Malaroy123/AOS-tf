@@ -17,7 +17,7 @@ resource "aws_lb_target_group" "alb_target_group" {
   name        = "${var.project_name}-${var.environment}-tg"
   target_type = "ip"
   port        = 80
-  protocol    = "http"
+  protocol    = "HTTP"
   vpc_id      = aws_vpc.vpc.id
 
   health_check {
