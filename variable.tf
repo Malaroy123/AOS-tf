@@ -110,3 +110,9 @@ variable "container_image" {
   description = "container image URI"
   type        = string
 }
+
+# route53 variables
+variable "record_name" {
+  description = "sub domain name"
+  type        = string
+}
