@@ -39,6 +39,4 @@ This repository contains Terraform configurations for deploying infrastructure o
 - **ECS & ALB**: Containerized application setup.
 - **Route 53**: DNS configuration.
 
-## License
 
-MIT License
